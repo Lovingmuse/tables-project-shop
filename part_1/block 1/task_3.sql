@@ -19,7 +19,7 @@ CREATE TABLE books
     FOREIGN KEY (shop_id)
         REFERENCES comic_book_shop (shop_id)
     FOREIGN KEY (publisher_id)
-        REFERENCES publishing_houses (publisher_id)
+        REFERENCES publishing_houses (publisher_id*)
 );
 
 CREATE TABLE publishing_houses
