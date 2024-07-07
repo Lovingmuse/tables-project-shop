@@ -4,4 +4,4 @@ DELETE
 
 DELETE 
     FROM books
-    WHERE publisher_id = 124;
+    WHERE publisher_id = 124; 

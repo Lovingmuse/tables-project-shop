@@ -7,7 +7,6 @@ SAVEPOINT after_insert;
 UPDATE books
     SET author = 'rainbow rowell'
     WHERE shop_id = 3;
-ROLLBACK after_insert;
 COMMIT;
 
 BEGIN;
